@@ -1,0 +1,2 @@
+var r=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports);import*as s from"@sentry/node";var o=r(()=>{var n=process.env.SENTRY_DSN;n&&s.init({dsn:n,environment:process.env.NODE_ENV||"development",tracesSampleRate:1,profilesSampleRate:1})});export default o();
+//# sourceMappingURL=instrumentSentry.mjs.map
