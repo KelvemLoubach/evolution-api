@@ -6,6 +6,7 @@ export default defineConfig({
   entry: ['src'],
   outDir: 'dist',
   splitting: false,
+  swc: true,
   sourcemap: true,
   clean: true,
   minify: true,
